@@ -1,6 +1,6 @@
 import React from "react";
 
-function middle2(){return(<body style={{color:"#333"}}>
+function middle2(){return(<body style={{backgroundColor:"#333"}}>
 <h1 className="M2h1" >My Services</h1>
     <div class="container first">
         <div class="card">
