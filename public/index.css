@@ -10,7 +10,7 @@ body{
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #333;
+  background-color: red;
   align-items: center;
   font-family: 'Jura', sans-serif;
 }
