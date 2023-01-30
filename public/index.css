@@ -4,13 +4,13 @@
 }
 html{
 
-  background-color: red;
+  background-color: #333;
 }
 body{
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: red;
+  background-color: #333;
   align-items: center;
   font-family: 'Jura', sans-serif;
 }
