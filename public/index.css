@@ -1,12 +1,20 @@
+*{
+
+  background: #333;
+}
 html{
-    background-color: #181818;
+
+  background: #333;
 }
 body{
-    margin: 0;
-    background-color: #181818;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #333;
+  align-items: center;
+  font-family: 'Jura', sans-serif;
 }
 #PHead{
-    background-color: #181818;
     position:relative;
     width: 680px;
     height: 850px;
@@ -96,11 +104,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-body {
-    background-color: #181818;
-  font-family:'Roboto';
-  background-color: #131417;  
-}
+
 p {
   text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
 }
@@ -157,7 +161,6 @@ p {
 
 /* /////////////////////////////////////////////////////////////////////////////////// */
 .M1{
-    background-color: #181818;
     font-size: 50px;
     text-decoration: underline;
     margin-top: 150px;
@@ -321,17 +324,8 @@ p.M1Para{
   /* middle 2 end */
 
 
-body{
-    background-color: #181818;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background: #333;
-    align-items: center;
-    font-family: 'Jura', sans-serif;
-}
+
 .M2h1{
-    background-color: #181818;
     text-align: center;
     align-items: center;
     margin-left: 570px;
@@ -367,7 +361,6 @@ body{
 }
 
 .container{
-    background-color: #181818;
     margin-left: 240px;
     margin-right: 240px;
     width: 380px;
@@ -563,7 +556,6 @@ body{
     /* ////////////////////////////////////////////////////////////////////////////////// */
 
 .M4{
-    background-color: #181818;
     margin-top: 660px;
 }    
 .M4 img{
