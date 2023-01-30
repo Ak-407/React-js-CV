@@ -97,6 +97,7 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
+    background-color: #181818;
   font-family:'Roboto';
   background-color: #131417;  
 }
@@ -156,6 +157,7 @@ p {
 
 /* /////////////////////////////////////////////////////////////////////////////////// */
 .M1{
+    background-color: #181818;
     font-size: 50px;
     text-decoration: underline;
     margin-top: 150px;
@@ -329,6 +331,7 @@ body{
     font-family: 'Jura', sans-serif;
 }
 .M2h1{
+    background-color: #181818;
     text-align: center;
     align-items: center;
     margin-left: 570px;
@@ -364,6 +367,7 @@ body{
 }
 
 .container{
+    background-color: #181818;
     margin-left: 240px;
     margin-right: 240px;
     width: 380px;
