@@ -533,9 +533,11 @@ body{
 
 .shell *{
     background-color: transparent;
+    font-family: 'Jura', sans-serif;
 }
 .shell1 *{
     background-color: transparent;
+    font-family: 'Jura', sans-serif;
 }
 .shell{
     margin-top: -100px;
