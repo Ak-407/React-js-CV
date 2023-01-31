@@ -530,7 +530,9 @@ body{
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* cardddddd */
 
-
+*{
+    background-color: transparent;
+}
 .shell{
     margin-top: -100px;
     display: inline-block;
@@ -741,7 +743,6 @@ a.buy-btn{
 
 
 
-
 /* .grid-row {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -819,6 +820,8 @@ background: #e8d3fc;
 
 
 /* ///////////////////////////////////////////////////////////// */
+
+
 .btn-shine{
     position: absolute;
     bottom: -375%;
