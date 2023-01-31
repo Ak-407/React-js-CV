@@ -7,9 +7,9 @@ function middle2(){return(<div>
 <h1 className="M2h1" style={{"
     left: 50px,
     right: 0px,
-    margin-top: -500,
+    marginTop: -500,
     top: -55,
-    margin-bottom: 200px"}}
+    marginBottom: 200px"}}
                           >My Services</h1>
 <div class="shell">
   <div class="containerr">
