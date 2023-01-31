@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer(){return(<dev className="FEND">
+function footer(){return(<dev className="FEND" style={{width: "615px"}}>
 
 <div className="FEND1 container">
 <span><h1><a style={{color:"white"}} href="https://www.linkedin.com/in/syed-amaan-88b250226/">linkedin</a></h1></span>
@@ -8,7 +8,7 @@ function footer(){return(<dev className="FEND">
 <span><h1><a style={{color:"white"}} href="https://github.com/Ak-407">Github</a></h1></span>
 
 </div>
-<div className="FEND2 container">
+<div className="FEND2 container" style={{width: "615px"}}>
 <h1>2023 © Made with ♥ by Amaan Iqbal</h1>
 </div>
 
