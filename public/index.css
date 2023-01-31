@@ -830,7 +830,7 @@ background: #e8d3fc;
 
 .btn-shine{
     position: absolute;
-    bottom: -375%;
+    bottom: -405%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 12px 48px;
