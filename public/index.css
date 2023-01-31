@@ -880,9 +880,7 @@ background: #e8d3fc;
 }
 .M4tabel:hover{
     opacity: 100%;
-    background: -webkit-linear-gradient(#000000,#080000,#100000 ,#180000 ,#200000 ,#280000 , #300000 , #380000 , #400000 , #480000 , #500000 , #580000 , #600000 , #680000  );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 
 }
 .TD{
