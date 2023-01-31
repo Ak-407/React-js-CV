@@ -9,7 +9,7 @@ function footer(){return(<dev className="FEND">
 
 </div>
 <div className="FEND2 container" style={{width: "615px"}}>
-<h1>2023 © Made with ♥ by Amaan Iqbal</h1>
+<h1 style={{marginLeft: "170px"}}>2023 © Made with ♥ by Amaan Iqbal</h1>
 </div>
 
 
