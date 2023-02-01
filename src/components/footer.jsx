@@ -3,9 +3,9 @@ import React from "react";
 function footer(){return(<dev className="FEND">
 
 <div className="FEND1 container" style={{width: "615px"}}>
-<span><h1><a style={{color:"white"}} href="https://www.linkedin.com/in/syed-amaan-88b250226/">linkedin</a></h1></span>
-<span><h1><a style={{color:"white"}} href="https://www.instagram.com/amaan_3k/">Instagram</a></h1></span>
-<span><h1><a style={{color:"white"}} href="https://github.com/Ak-407">Github</a></h1></span>
+<span><h1><a style={{color:"white"}} href="https://www.linkedin.com/in/syed-amaan-88b250226/">Github</a></h1></span>
+<span><h1><a style={{color:"white"}} href="https://www.instagram.com/amaan_3k/">linkedin</a></h1></span>
+<span><h1><a style={{color:"white"}} href="https://github.com/Ak-407">Instagram</a></h1></span>
 
 </div>
 <div className="FEND2 container" style={{width: "615px"}}>
