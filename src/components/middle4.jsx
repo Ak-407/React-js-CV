@@ -6,10 +6,11 @@ import 'react-bootstrap'
 function middle4(){
     return(<div className="M4">
     <h1 href="https://usecheck.com/" class="btn-shine" target="_blank">My Recent Web-Project's</h1>
-
-<hr></hr>
-<hr></hr>
-<hr></hr>
+           
+    <hr style={{color:"white"}}></hr>
+    <hr style={{color:"white"}}></hr>
+    <hr style={{color:"white"}}></hr>
+    <hr style={{color:"white"}}></hr>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 <tabel className="M4tabel">
   
