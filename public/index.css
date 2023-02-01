@@ -1493,9 +1493,9 @@ background: #e8d3fc;
             font-size: 38px;
         }
         .FEND1 {
-            float: left;
+            text-align: center;
             position: relative;
-            margin-left: 150px !important;
+            margin-left: 170px !important;
             bottom: -380px;
             margin-bottom: 70px;
             opacity: 1;
@@ -1504,7 +1504,7 @@ background: #e8d3fc;
         }
         .FEND1 h1{
             font-size: 60px;
-            width: 500px;
+            width: 400px;
         }
 
         button::before {
