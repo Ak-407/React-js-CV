@@ -9,7 +9,7 @@ function head(){
     <span id="PHead">
         {/* <img id="PHead" src="/imeges/P_20221211_154157-05.jpeg" alt="amaan"></img> */}
         {window.addEventListener('scroll', function(){
-         this.document.getElementById("PHead").style.backgroundSize =160 -  +window.pageYOffset/12+"%";
+         this.document.getElementById("PHead").style.backgroundSize =200 -  +window.pageYOffset/60+"%";
          this.document.getElementById("PHead").style.opacity =95 -  +window.pageYOffset/100+"%";
      })}
 </span>
