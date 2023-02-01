@@ -1493,16 +1493,19 @@ background: #e8d3fc;
             font-size: 38px;
         }
         .FEND1 {
-    float: left;
-    position: relative;
-    margin-left: 410px !important;
-    bottom: -380px;
-    margin-bottom: 70px;
-    opacity: 1;
-    width: 100%;
-    z-index: 1;
-}
-
+            float: left;
+            position: relative;
+            margin-left: 150px !important;
+            bottom: -380px;
+            margin-bottom: 70px;
+            opacity: 1;
+            width: 100%;
+            z-index: 1;
+        }
+        .FEND1 h1{
+            font-size: 60px;
+            width: 500px;
+        }
 
         button::before {
             content: '';
