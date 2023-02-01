@@ -19,7 +19,7 @@ function footer1(){
     <hr style={{color:"white"}}></hr>
     </dev>
     <dev className="F2" class="wrap">
-    <button class="buttonF">Lets Talk</button>
+    <a href="mailto:amaaniqbal3k@gmail.com"><button class="buttonF">Lets Talk</button></a>
     </dev>
 
 
