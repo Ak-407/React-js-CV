@@ -4,17 +4,13 @@ function middle2(){return(<div>
 
 
 
-<h1 className="M2h1" style={{
-    left: "50px",
-    right: "0px",
-    marginTop: "-500",
-    top: "-55",
-    marginBottom: "200px"}}
-                          >My Services</h1>
-<div class="shell">
+<h1 className="M2h1">My Services</h1>
+
+
+ <div class="shell">
   <div class="containerr">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           <svg xmlns="http://www.w3.org/2000/svg" width="246" height="156" fill="black" class="bi bi-motherboard" viewBox="0 0 16 16">
@@ -33,7 +29,7 @@ function middle2(){return(<div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           <svg xmlns="http://www.w3.org/2000/svg" width="246" height="156" fill="black" class="bi bi-shield-lock-fill" viewBox="0 0 16 16">
@@ -51,7 +47,7 @@ function middle2(){return(<div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           <svg xmlns="http://www.w3.org/2000/svg" width="246" height="156" fill="black" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
@@ -69,14 +65,7 @@ function middle2(){return(<div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="shell1">
-  <div class="containerr">
-    <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           <img src="/imeges/image.jpg"></img>
@@ -92,7 +81,7 @@ function middle2(){return(<div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           <svg xmlns="http://www.w3.org/2000/svg" width="246" height="156" fill="currentColor" class="bi bi-terminal" viewBox="0 0 16 16">
@@ -111,7 +100,7 @@ function middle2(){return(<div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="wsk-cp-product">
           <div class="wsk-cp-img">
           
@@ -130,95 +119,6 @@ function middle2(){return(<div>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-    {/* <div class="container">
-    <div class="cards grid-row">
-      <div class="card">
-        <div class="card-top">
-          <img src="img1.jpg" alt="Blog Name"></img>
-        </div>
-        <div class="card-info">
-          <h2>JavaScript Quote Generator</h2>
-          <span class="date">Monday, Jan 20, 2021</span>
-          <p class="excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-        <div class="card-bottom flex-row">
-          <a href="#" class="read-more">Read Full Blog</a>
-          <a href="#" class="button btn-yellow">Blog</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-top">
-          <img src="img2.jpg" alt="Blog Name"></img>
-        </div>
-        <div class="card-info">
-          <h2>How to Build HTML Minifier</h2>
-          <span class="date">Monday, Jan 20, 2021</span>
-          <p class="excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-        <div class="card-bottom flex-row">
-          <a href="#" class="read-more">Read Full Blog</a>
-          <a href="#" class="button btn-sky">Blog</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-top">
-          <img src="img3.jpg" alt="Blog Name"></img>
-        </div>
-        <div class="card-info">
-          <h2>How to Build Signature Pad</h2>
-          <span class="date">Monday, Jan 20, 2021</span>
-          <p class="excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-        <div class="card-bottom flex-row">
-          <a href="#" class="read-more">Read Full Blog</a>
-          <a href="#" class="button btn-dpink">Blog</a>
-        </div>
-      </div>
-    </div>    
-  </div>
-
-  <div class="container">
-    <div class="cards grid-row">
-      <div class="card">
-        <div class="card-top">
-          <img src="img1.jpg" alt="Blog Name"></img>
-        </div>
-        <div class="card-info">
-          <h2>JavaScript Quote Generator</h2>
-          <span class="date">Monday, Jan 20, 2021</span>
-          <p class="excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-        <div class="card-bottom flex-row">
-          <a href="#" class="read-more">Read Full Blog</a>
-          <a href="#" class="button btn-yellow">Blog</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-top">
-          <img src="img4.jpeg" alt="Blog Name"></img>
-        </div>
-        <div class="card-info">
-          <h2>How to Build Gsap Gallery</h2>
-          <span class="date">Monday, Jan 20, 2021</span>
-          <p class="excerpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-        <div class="card-bottom flex-row">
-          <a href="#" class="read-more">Read Full Blog</a>
-          <a href="#" class="button btn-dpink">Blog</a>
-        </div>
-      </div>
-    </div>    
-  </div> */}
-
-  
-
-
 
 
 
