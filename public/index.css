@@ -1102,13 +1102,15 @@ background: #e8d3fc;
       .M1{
         position: relative;
         top: 170px;
-        left: 250px;
+        left: 266px;
         font-size: 200px;
         text-decoration: underline;
         margin-top: 190px;
         margin-bottom: 20px;
         text-align: center;
-        background: -webkit-linear-gradient(#03C8A8,#52A7C1, #9E768F, #52A7C1);
+          
+        background-color: #FFFFFF;
+        background-image: linear-gradient(102deg, #FFFFFF 0%, #6284FF 50%, #FF0000 99%);
         text-underline-position: under;
         text-decoration-color: #b2edff;
         -webkit-background-clip: text;
@@ -1122,7 +1124,7 @@ background: #e8d3fc;
         width: 100%;
         position: relative;
         align-items: center;
-        text-align: center;
+        text-align: left;
         color: aliceblue;
         font-size: 70px;
         margin-top: 30px;
@@ -1130,7 +1132,7 @@ background: #e8d3fc;
         padding: 80px 0px;
     }
     p.M1Para{
-        text-align: center;
+        text-align: left;
         position: relative;
         left: 50px;
         top: 200px;
