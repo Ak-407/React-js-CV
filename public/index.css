@@ -1495,7 +1495,7 @@ background: #e8d3fc;
         .FEND1 {
     float: left;
     position: relative;
-    margin-left: 410px;
+    margin-left: 410px !important;
     bottom: -380px;
     margin-bottom: 70px;
     opacity: 1;
