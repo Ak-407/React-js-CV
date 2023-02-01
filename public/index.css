@@ -523,7 +523,6 @@ body{
     display: inline-block;
     font-size: 60px;
     position: relative;
-    right: 540px;
     margin-top: -200px;
     background: -webkit-linear-gradient(#03C8A8,#e66eb0,#52A7C1,  #52A7C1);
     -webkit-background-clip: text;
