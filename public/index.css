@@ -1706,18 +1706,18 @@ background: #e8d3fc;
             border: 12px solid #00FFCB;
             box-shadow: 0 0 6px rgb(0 255 203 / 64%);
             position: absolute;
-            top: 100%;
-            left: 290px;
+            top: 107% !important;
+            left: 55% !important;
             transform: translate(-50%, -50%);
             opacity: 0;
             transition: all 1.0s ease-in-out 0s;
             margin-bottom: 600px;
         }
         .carousel-control-next {
-            left: 1200px;
+            left: 1200px !important;
         }
         .carousel-control-prev {
-            left: 200px;
+            left: 200px !important;
         }
         .carousel-control-next-icon {
             position: relative;
