@@ -8,6 +8,7 @@ import Middle3 from './components/middle3';
 import Middle4 from './components/middle4';
 import Footer1 from './components/footer1';
 import Footer from './components/footer';
+import PageReloader from './components/new';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -15,7 +16,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 ReactDOM.render(
 
 <div>
-  
+
+<PageReloader  />
+<header>
 <First />
 <Head />
 <Middle />
@@ -24,6 +27,7 @@ ReactDOM.render(
 <Middle4 />
 <Footer1 />
 <Footer />
+</header>
 
 
  
