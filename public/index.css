@@ -1826,7 +1826,7 @@ background: #e8d3fc;
         }
 
         .btn-shine {
-            position: relative;
+            position: relative !important;
             width: 1500px;
             left: 805px;
             transform: translate(-50%,-50%);
