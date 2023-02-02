@@ -2021,9 +2021,9 @@ background: #e8d3fc;
   }
 
 .loader-container {
-    margin-top: 0px;
+    margin-top: -5px;
     width: 1570px;
-    height: 150vh;
+    height: 160vh;
     position: fixed !important;
     background: rgba(0, 0, 0, 0.834)
          url("https://media0.giphy.com/media/tA4R6biK5nlBVXeR7w/giphy.gif?cid=ecf05e47a9cx2afigipwua5zq4ye1sm02pbxvzchetj1wxc7&rid=giphy.gif&ct=g")center
@@ -2032,16 +2032,6 @@ background: #e8d3fc;
         opacity: 1 !important;
         background-color: #000000 !important;
     z-index: 9 !important;
-}
-
-.spinner {
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    border: 8px solid;
-    border-color: #ff0000 transparent #ff0000 transparent;
-    border-radius: 100%;
-    animation: spin-anim 1.2s linear infinite;
 }
 
 @keyframes spin-anim {
