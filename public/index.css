@@ -2021,7 +2021,7 @@ background: #e8d3fc;
   }
 
 .loader-container {
-    margin-top: -3px;
+    margin-top: 0px;
     width: 1570px;
     height: 150vh;
     position: fixed !important;
