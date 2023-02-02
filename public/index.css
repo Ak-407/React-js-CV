@@ -1044,8 +1044,8 @@ background: #e8d3fc;
       
   @keyframes shine{
     0%{background-position: 0}
-    60%{background-position: 880px}
-    100%{background-position: 880px}
+    60%{background-position: 996px}
+    100%{background-position: 996px}
       }
 
     /* ////////////////////////////////////////////////////////////////////////////////// */
