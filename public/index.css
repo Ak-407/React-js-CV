@@ -385,7 +385,7 @@ p.M1Para{
 #M1Progress hr{
         opacity: 1;
     background: linear-gradient(to right, red, black);
-    height: 10px !important;
+    height: 6px !important;
 }
 
 
@@ -1354,6 +1354,11 @@ background: #e8d3fc;
         padding-left: 0px;
         padding-right: 0px;
     }
+    #M1Progress hr{
+        opacity: 1;
+    background: linear-gradient(to right, red, black);
+    height: 10px !important;
+}
     .progress{
         height: 50px !important;
         width: 100% !important;
