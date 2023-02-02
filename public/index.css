@@ -111,6 +111,8 @@ body{
       height: 3px;
       background-color: rgb(163, 0, 0);
       margin: 0px;
+        opacity: 1 !important;
+    background: linear-gradient(to right, red, black) !important;
       
       -webkit-animation-name: line-show; 
       -webkit-animation-duration: 2.3s; 
@@ -1869,6 +1871,8 @@ background: #e8d3fc;
       height: 10px;
       background-color: salmon;
       margin: 0px;
+        opacity: 1 !important;
+    background: linear-gradient(to right, red, black) !important;
       
       -webkit-animation-name: line-show; 
       -webkit-animation-duration: 1.3s; 
