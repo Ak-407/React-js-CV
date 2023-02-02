@@ -1080,12 +1080,12 @@ background: #e8d3fc;
 .btn-shine{
     width: 996px;
     position: relative;
-    left: 500px;
+    left: 650px;
     top: 80px;
     transform: translate(-50%,-50%);
     padding: 12px 48px;
     color: #ffffff;
-    background: linear-gradient(to right, #000000 20%,#03C8A8);
+    background: linear-gradient(to right, #9B9A9C 20%,#03C8A8);
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
