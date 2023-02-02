@@ -2023,7 +2023,7 @@ background: #e8d3fc;
 .loader-container {
     margin-top: -14px;
     width: 1570px;
-    height: 170vh;
+    height: 150vh;
     position: fixed !important;
     background: rgba(0, 0, 0, 0.834)
          url("https://media0.giphy.com/media/tA4R6biK5nlBVXeR7w/giphy.gif?cid=ecf05e47a9cx2afigipwua5zq4ye1sm02pbxvzchetj1wxc7&rid=giphy.gif&ct=g")center
