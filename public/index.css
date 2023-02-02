@@ -382,6 +382,11 @@ p.M1Para{
     width: 50%;
     float: right;
 }
+#M1Progress hr{
+        opacity: 1;
+    background: linear-gradient(to right, red, black);
+    height: 10px !important;
+}
 
 
 /* middle 2 design  */
