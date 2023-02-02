@@ -14,7 +14,7 @@ const PageReloader = () => {
     <div className="Reload">
       {loading ? (
         <div className="loader-container loaderr">
-      	  <div className="spinner"></div>
+      	  <div className=""></div>
         </div>
       ) : (
         <div className="main-content">
