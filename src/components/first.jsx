@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
 
 
 function first(){
@@ -15,13 +14,14 @@ function first(){
     <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>&times;</a>
   <div class="overlay-content">
-  <Link to="/about">About</Link>
-  <Link to="/contact">Services</Link>
-  <Link to="/contact">Contact</Link>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
   </div>
 </div>
 
-<div className="TB"  onClick={openNav}>&#9776; open</div>
+<div className="TB" style={{fontSize:"30px",cursor:"pointer"}} onClick={openNav}>&#9776; open</div>
 
 
 
