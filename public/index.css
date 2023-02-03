@@ -2,21 +2,369 @@
     background-color: rgb(0, 0, 0);
     font-family: 'Jura', sans-serif;
 }
-@keyframes slideInLeft {
+
+    
+section {
+    transition: transform 0.25s;
+    will-change: transform;
+  }
+/* //////////////////////////////////////////////////bootstrap ///////////////// */
+
+.contacterror img{
+    height: 100vh;
+    width: 1600px;
+}
+
+  /* //////////////////÷       about page            ////////////////////////////////////////////////////  */
+
+.secondroute *{
+    background-color: transparent;
+}
+.secondroute h3{
+    font-size: 3rem;
+    line-height: 40px;
+}
+.first{ 
+    font-size: 12rem;
+    font-family: 'Orbitron', sans-serif;
+    background: -webkit-linear-gradient(10deg,#BDD4E7, #8693AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.wrapper{
+    margin-top: -20px;
+    height: 100vh;
+    padding: 0px 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 70px;
+}
+
+
+.hheader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: translateZ(-70px) scale(2);
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));   
+}
+
+.Th3{
+    text-align: center;
+    color: white;
+    padding: 40px 30px;
+    font-family: 'Orbitron', sans-serif;
+    background: -webkit-linear-gradient(10deg,#BDD4E7, #8693AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.H12{
+    font-size: 6rem;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+    background: -webkit-linear-gradient(10deg,rgb(145, 0, 0), rgb(143, 143, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.H42{
+    font-size: 2.3rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 30px;
+}
+.R{
+    min-width: 100% !important;
+    min-height: 0px !important;
+    padding: 10px 0px 0px 0px  !important;
+
+}
+.R h4{
+    font-size: 2.6rem;
+}
+.R small{
+    font-size: 1.6rem;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+}
+
+.card-footer{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.F1R{
+    font-family: 'Jura', sans-serif;
+    float: left;
+}
+.F1R p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.F1R h1{
+    font-size: 40px;
+    width: 740px;
+    background: -webkit-linear-gradient(#833ab4 0%,#fd1d1d 50%, #fcb045 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+
+  
+.buttonF2 {
+    margin-top: 120px;
+    margin-right: 40px;
+    float: right;
+    min-width: 300px;
+    min-height: 60px;
+    font-size: 22px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(150px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .buttonF:hover, .buttonF:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 10px; height: 10px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.0s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
     0% {
-      transform: translateX(-100%);
+      width: 30px;
+      height: 30px;
+      opacity: 1;
     }
-    100%{
-        transform: translateX(0);
+    100% {
+      width: 200px;
+      height: 200px;
+      opacity: 0;
     }
   }
-  header {
-    animation-duration: 2s;
-        animation-timing-function:ease-in-out;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-name: slideInLeft;
-  }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.F00{
+    font-family: 'Orbitron', sans-serif;
+}
+.F00 h4{
+    font-size: 20px;
+}
+.F001{
+    display: inline-block;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+.F0011{
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(10deg,rgb(255, 0, 0), rgb(143, 143, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.F0012{
+    display: inline-block;
+    margin:0 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(10deg,rgb(16, 90, 195), rgb(143, 143, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.F0013{
+    display: inline-block;
+    margin:0 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(10deg,rgb(147, 0, 147), rgb(143, 143, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.F002{
+    float: right;
+    display: inline-block;
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .wrapper{
+        margin-top: -20px;
+        padding: 0;
+    }
+    .secondroute h3{
+        font-size: 4rem;
+        line-height: 50px;
+    }
+    .R h4{
+        font-size: 5.6rem;
+        text-align: center;
+    }
+    .R small{
+        font-size: 3.6rem;
+        text-align: center;
+    }
+    .H42{
+        font-size: 3.5rem;
+        margin-bottom: 200px;
+        line-height: 50px;
+    }
+    .card-footer {
+        font-family: 'Orbitron', sans-serif;
+        height: 600px;
+        font-size: 2.3rem;
+        padding: 40px;
+    }
+    .container-fluid{
+        margin-bottom: 200px;
+    }
+    .F1R{
+        font-family: 'Jura', sans-serif;
+        float: left;
+    }
+    .F1R p{
+        font-size: 80px;
+        color: #fff;
+    }
+    
+    .F1R h1{
+        font-size: 50px;
+        width: 100%;
+        background: -webkit-linear-gradient(#833ab4 0%,#fd1d1d 50%, #fcb045 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .buttonF2 {
+        margin-top: 100px;
+        margin-right: 350px;
+        align-items: center;
+        min-width: 300px;
+        min-height: 60px;
+        font-size: 22px;
+        font-family: 'Orbitron', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #313133;
+        background: #4FD1C5;
+      background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+        border: none;
+        border-radius: 1000px;
+        box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+        }
+    .F001{
+        width: 100%;
+        align-items: center;
+        padding-top: 100px;
+        text-align: center;
+    }
+    .F002 {
+        width: 100%;
+        padding-top: 20px ;
+        text-align: center;
+        align-items: center;
+    }
+    .F001 h4{
+        font-size: 4.1rem;
+    } 
+    .F002 h4{
+        font-size: 3rem;
+    }
+    
+}
+
+
+
+/* ///////////////////////////////////////               end about page   /////////////////////////////////// */
+
 html{
     background-color: rgb(0, 0, 0);
 }
