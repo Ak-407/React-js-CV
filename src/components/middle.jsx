@@ -1,8 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-function middle(){
-    return(<div>
-    <Link to="/about"><h1 className="M1">About Me</h1></Link>
+import React, {useEffect} from "react";
+function middle(){return(<div>
+    <h1 className="M1">About Me</h1>
     <span>
     <p className="M1Para">
     <h1 className="M1h1">Brief overview of myself</h1>
@@ -10,8 +8,7 @@ function middle(){
     <br></br>
         As a young individual, I was introduced to the world of technology through my first Windows laptop. 
         However, I found that I was not particularly interested in the typical activities such as gaming that many of my peers
-        were engaged in. It was not until I was introduced to the powerful operating 
-        <Link to="/about">Click to view our about page</Link>
+        were engaged in. It was not until I was introduced to the powerful operating <a href="www.google.com"><h1>Click Here To Read More</h1></a>
         {/* system, Kali Linux, by  */}
         {/* a friend who is now a 
         full stack web developer, that I truly discovered my passion for technology. Through utilizing Kali Linux, I was able to gain 
